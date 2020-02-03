@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "outDir": "./src",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "jsx": "react",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "pretty": true,
+        "newLine": "LF",
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": ["node_modules"]
+}

@@ -1,0 +1,10 @@
+.DS_Store
+
+#FOLDER DIST
+dist/
+
+#FOLDER APP
+app/
+
+#NODE_MODULES
+node_modules/

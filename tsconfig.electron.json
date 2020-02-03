@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "emitDecoratorMetadata": true,
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./app",
+    "types": ["node", "electron"],
+    "sourceMap": false,
+    "module": "commonjs"
+  },
+  "target": "es2015",
+
+  "include": ["src/electron/**/*.ts"],
+  "exclude": ["src/electron/database/inco.sqlite", "src/electron/API/modelos/*"]
+}
